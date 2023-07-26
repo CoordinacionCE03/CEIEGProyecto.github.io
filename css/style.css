@@ -16,7 +16,7 @@ html{
 }
 body{
     margin: 0;
-  margin-bottom: 65rem;
+  margin-bottom: 90rem;
 }
 
 /* HEADER */
@@ -666,7 +666,7 @@ header{
     left: 6%;
     text-align: justify;
     width: 90%;
-    height: 35rem;
+    height: 60rem;
     box-shadow: -13px 6px 20px rgba(182, 184, 182, .5);
 }
 .contenido:hover{
@@ -689,25 +689,214 @@ header{
 }
 .texto__inicio-titulo{
     position: absolute;
-    top: 16rem;
+    top: 47rem;
     left: 40%;
 }
 .texto__inicio-3{
     position: absolute;
-    top: 18rem;
+    top: 48rem;
     padding: 20px;
     font-size: 15px;
     line-height: 25px;
 }
 .texto__inicio-4{
     position: absolute;
-    top: 25rem;
+    top: 53rem;
     padding: 20px;
     font-size: 15px;
     line-height: 25px;
 }
 .negritas{
     font-weight: bold;
+}
+@keyframes aniflotan {
+        0%{
+        transform: translateY(-5px);
+       }
+       50%{
+        transform: translateY(-10px);
+       }
+       100%{
+        transform: translateY(-5px);
+       }
+}
+.opciones{
+    position: relative;
+    top: 12rem;
+    width: 100%;
+    height: 5rem;
+    text-align: center;
+}
+.opciones label{
+    font-size: 13px;
+    font-weight: bold;
+}
+.opcion1{
+    position: relative;
+    top: 1rem;
+    left: 5px;
+    width: 20%;
+}
+.opcion1:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion1 img{
+    width: 30%;
+}
+.opcion1 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion2{
+    position: relative;
+    top: -5.6rem;
+    left: 20rem;
+    width: 20%;
+}
+.opcion2:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion2 img{
+    animation: aniflotan 3s linear infinite;
+    width: 35%;
+}
+.opcion2 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion3{
+    position: relative;
+    top: -12.4rem;
+    left: 40rem;
+    width: 20%;
+}
+.opcion3:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion3 img{
+    width: 35%;
+}
+.opcion3 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion4{
+    position: relative;
+    top: -20.8rem;
+    left: 60rem;
+    width: 20%;
+}
+.opcion4:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion4 img{
+    animation: aniflotan 3s linear infinite;
+    width: 40%;
+}
+.opcion4 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion5{
+    position: relative;
+    top: -16rem;
+    left: 5px;
+    width: 20%;
+}
+.opcion5:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion5 img{
+    animation: aniflotan 3s linear infinite;
+    width: 35%;
+}
+.opcion5 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion6{
+    position: relative;
+    top: -24.3rem;
+    left: 20rem;
+    width: 20%;
+}
+.opcion6:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion6 img{
+    width: 40%;
+}
+.opcion6 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion7{
+    position: relative;
+    top: -32rem;
+    left: 40rem;
+    width: 20%;
+}
+.opcion7:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion7 img{
+    animation: aniflotan 3s linear infinite;
+    width: 90%;
+}
+.opcion7 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion8{
+    position: relative;
+    top: -40.5rem;
+    left: 60rem;
+    width: 20%;
+}
+.opcion8:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion8 img{
+    width: 40%;
+}
+.opcion8 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
+}
+.opcion9{
+    position: relative;
+    top: -40rem;
+    left: 30rem;
+    width: 20%;
+}
+.opcion9:hover{
+    border-radius: 15px;
+    box-shadow: 0px 20px 20px rgb(143, 140, 140); 
+    transition: all .3s ease-in;
+}
+.opcion9 img{
+    animation: aniflotan 3s linear infinite;
+    width: 35%;
+}
+.opcion9 img:hover{
+    border-radius: 20px;
+    animation: aniflotan 3s linear infinite;
 }
 /* FIN contenido texto  */
 
