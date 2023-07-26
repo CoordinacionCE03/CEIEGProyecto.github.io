@@ -201,8 +201,8 @@ header{
 .contactos{
     position: absolute;
     top: 13rem;
-    left: 0;
-    width: 100%;
+    left: 2rem;
+    width: 95%;
     height: 23rem;
     border-radius: 25px;
 
@@ -225,7 +225,7 @@ header{
     width: 15%;
     height: auto;
     position: absolute;
-    left: 40rem;
+    left: 35rem;
     top: 4rem;
     border-radius: 100%;
     object-fit: cover; /*Para que las imagenes no se estiren o no se distorcicones independientemente de su tamaño*/
@@ -256,7 +256,7 @@ header{
 .primer{
     position: relative;
     left: 5px;
-    width: 40%;
+    width: 35%;
     height: 50%;
     /* background-color: red; */
 
@@ -325,7 +325,7 @@ header{
 .segun{
     position: relative;
     left: 0;
-    width: 40%;
+    width: 35%;
     height: 50%;
     /* background-color: #3586ff; */
     border-radius: 30px;
@@ -395,7 +395,7 @@ header{
 .direccion{
     position: relative;
     top: -10rem;
-    left: 35rem;
+    left: 30rem;
     width: 30%;
     height: 40%;
     /* background-color: #3586ff; */
@@ -457,7 +457,7 @@ header{
 .mapa{
     position: relative;
     top: -31rem;
-    right: -60.5rem;
+    right: -55.5rem;
     width: 28%;
     height: 90%;
     /* background-color: red; */
@@ -705,7 +705,48 @@ footer .waves#wave4{
 /*  FIN Footer */
 
 /*Codigo para aplicar el diseño responsivo*/
+@media screen and (max-width: 1330px){
+    .mapa{
+        padding-right: 15rem;
+    }
+    .mapa iframe{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 1320px){
+    .mapa{
+        width: 22%;
+    }
+    .mapa iframe{
+        width: 230px;
+    }
+}
+@media screen and (max-width: 1230px){
+    .mapa{
+        top: -30rem;
+        right: -49.5rem;
+        height: 75%;
+    }
+    .mapa iframe{
+        height: 250px;
+    }
+    .primer label{
+        font-size: 11px;
+    }
+    .segun label{
+        font-size: 11px;
+    }
+    .direccion label{
+        font-size: 11px;
+    }
+    .direccion{
+        left: 25rem;
+    }
+    .contactos img{
+        left: 29rem;
+    }
 
+}
 @media screen and (max-width: 1100px){
     .linea__navbar-gris{
         top: 15px;
@@ -724,12 +765,24 @@ footer .waves#wave4{
     }.depa{
         font-size: 15px;
     }
-    
+    /*new element*/
+    .direccion label{
+        left: 1rem;
+    }
+    .mapa{
+        left: 72%;
+    }
 }
 
 @media screen and (max-width: 1050px){
+    .primer{
+        width: 350px;
+    }
     .primer label{
         font-size: 11px;
+    }
+    .segun{
+        width: 350px;
     }
     .segun label{
         font-size: 11px;
@@ -746,9 +799,29 @@ footer .waves#wave4{
         right: -18rem;
     }
 }
+@media screen and (max-width: 1000px){
+    .direccion{
+        left: 22.5rem;
+        width: 300px;
+    }
+}
 
 @media screen and (max-width: 950px){
-    
+    .contactos img{
+        left: 25rem;
+        width: 180px;
+    }
+    .mapa{
+        top: -31rem;
+        left: 69%;
+        height: 180px;
+    }
+    .mapa iframe{
+        height: 150px;
+    }
+    .direccion{
+        width: 55%;
+    }
     /* footer */
     footer p{
         top: 7.7rem;
@@ -766,12 +839,11 @@ footer .waves#wave4{
 }
 
 @media screen and (max-width: 908px){
-    .primer .correo{
-        top: 8rem;
-    }
+    /* .primer .correo{
+        /* top: 8rem; 
+    } */
     .contactos img{
-        top: 8rem;
-        right: 2rem;
+        left: 23rem;
     }
 }
 
@@ -814,13 +886,43 @@ footer .waves#wave4{
     }
 }
 
-@media screen and (max-width: 886px){
-    .primer .Tel{
-        top: 6.9rem;
+@media screen and (max-width: 850px){
+    body{
+        margin-bottom: 70rem;
     }
-    .primer .correo{
-        top: 9rem;
+    .contactos{
+        height: 640px;
     }
+    .contactos img{
+        width: 200px;
+        left: 30rem;
+    }
+    .primer, .segun{
+        height: 160px;
+    }
+    .segun{
+        top: 1rem;
+    }
+    .direccion{
+        top: -8rem;
+        width: 51%;
+        height: 140px;
+    }
+    .direccion label{
+        font-size: 13px;
+    }
+    .mapa{
+        top: -5rem;
+        left: 20px;
+        width: 90%;
+        padding-right: 0;
+        height: 230px;
+    }
+    .mapa iframe{
+        width: 95%;
+        height: 200px;
+    }
+    
 }
 
 @media screen and (max-width: 815px){
@@ -833,6 +935,31 @@ footer .waves#wave4{
     .contactos{
         left: 3rem;
         width: 90%;
+        height: 55rem;
+    }
+    .primer{
+        width: 90%;
+    }
+    .segun{
+        width: 90%;
+    }
+    .mapa{
+        top: 11rem;
+    }
+    .contactos img{
+        top: 25rem;
+        left: 23rem;
+    }
+    .direccion{
+        top: 10rem;
+        left: 0;
+        width: 100%;
+    }
+    .direccion label{
+        font-size: 13px;
+    }
+    body{
+        margin-bottom: 85rem;
     }
 }
 
@@ -859,7 +986,18 @@ footer .waves#wave4{
     .logo__navbar--INEGI{
         width: 25%;
     }
-    
+    .primer{
+        width: 90%;
+    }
+    .segun{
+        width: 90%;
+    }
+    .contactos img{
+        top: 25rem;
+        left: 23rem;
+    }
+    /* .direccion{
+    } */
      /*Footer*/
      footer p{
         top: 7.7rem;
@@ -901,6 +1039,11 @@ footer .waves#wave4{
         font-size: 15px;
     }
 }
+@media screen and (max-width: 650px){
+    .contactos img{
+        left: 19rem;
+    }
+}
 @media screen and (max-width: 640px){
     .logo__navbar--SNIEG{
         width: 50%;
@@ -933,6 +1076,26 @@ footer .waves#wave4{
      .copy{
         font-size: 7px;
      }
+}
+@media screen and (max-width: 610px){
+    .primer{
+        width: 100%;
+    }
+    .segun{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 580px){
+    .contactos img{
+        left: 10rem;
+        width: 150px;
+    }
+    .primer{
+        width: 100%;
+    }
+    .segun{
+        width: 100%;
+    }
 }
 @media screen and (max-width: 550px) {
     
@@ -977,14 +1140,10 @@ footer .waves#wave4{
 }
 @media screen and (max-width: 530px){
     .primer{
-        width: 70%;
-    }
-    .contactos img{
-        top: 10rem;
-        right: 0;
+        width: 100%;
     }
     .segun{
-        width: 70%;
+        width: 100%;
     }
     .footer_menu--redes a{
         position: relative;
